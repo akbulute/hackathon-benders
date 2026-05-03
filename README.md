@@ -17,4 +17,4 @@ uvicorn api:app --reload --port 8000
 ```
 HTML dosyasını çalıştırdıktan sonra projeyi deneyebilirsiniz.
 
-Sunum Drive Linki : 
+Sunum Drive Linki : https://drive.google.com/file/d/1cfWF8byWZ7kfSCrsaWMeJ7WyV35vRn19/view?usp=sharing
