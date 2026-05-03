@@ -1,0 +1,137 @@
+[
+  {
+    "id": "SVN-001",
+    "makine_adi": "Induction Melting Furnace",
+    "sektor": "Defense Industry",
+    "guc_kw": 3000,
+    "sure_saat": 3,
+    "karakteristik": "Heavy_Thermal_Load",
+    "aciklama": "Special steel alloy casting. Draws very high current from the grid; must be scheduled for the night to avoid peak demand charges."
+  },
+  {
+    "id": "SVN-002",
+    "makine_adi": "Vertical Pit Heat Treatment Furnace",
+    "sektor": "Defense Industry",
+    "guc_kw": 350,
+    "sure_saat": 8,
+    "karakteristik": "Continuous_Constant_Load",
+    "aciklama": "Barrel tempering. Once heated, it cannot be stopped for 8 hours (uninterruptible constraint)."
+  },
+  {
+    "id": "SVN-003",
+    "makine_adi": "Radial Cold Forging Press",
+    "sektor": "Defense Industry",
+    "guc_kw": 250,
+    "sure_saat": 2,
+    "karakteristik": "Peak_Impact_Load",
+    "aciklama": "Barrel rifling. Short duration but draws extremely high instantaneous (peak) power."
+  },
+  {
+    "id": "SVN-004",
+    "makine_adi": "Laser Cutting Line",
+    "sektor": "Defense Industry",
+    "guc_kw": 120,
+    "sure_saat": 2,
+    "karakteristik": "Flexible_Load",
+    "aciklama": "Armor plate cutting. Can be flexibly shifted to daytime solar (PV) hours or nighttime depending on need."
+  },
+  {
+    "id": "SVN-005",
+    "makine_adi": "5-Axis CNC Machining Center",
+    "sektor": "Defense Industry",
+    "guc_kw": 55,
+    "sure_saat": 4,
+    "karakteristik": "Flexible_Machining_Load",
+    "aciklama": "Weapon body machining. Draws low-to-medium power. Can easily fill daytime production gaps."
+  },
+  {
+    "id": "OTO-001",
+    "makine_adi": "Heavy Body Stamping Press Line",
+    "sektor": "Automotive Industry",
+    "guc_kw": 600,
+    "sure_saat": 3,
+    "karakteristik": "Maximum_Peak_Load",
+    "aciklama": "Transforms sheet metal into car chassis. Must be optimized to avoid pushing daytime grid peak (demand) limits."
+  },
+  {
+    "id": "OTO-002",
+    "makine_adi": "Paint Shop / E-Coating Oven",
+    "sektor": "Automotive Industry",
+    "guc_kw": 400,
+    "sure_saat": 6,
+    "karakteristik": "Continuous_Thermal_Load",
+    "aciklama": "Body paint baking process. Draws continuous thermal power from the grid and the process cannot be interrupted."
+  },
+  {
+    "id": "OTO-003",
+    "makine_adi": "Engine Test Dynamometer",
+    "sektor": "Automotive Industry",
+    "guc_kw": 300,
+    "sure_saat": 2,
+    "karakteristik": "Regenerative_Fluctuating_Load",
+    "aciklama": "Performance testing of finished engines. Draws high power but can return energy to the grid during braking phases."
+  },
+  {
+    "id": "OTO-004",
+    "makine_adi": "Large Tonnage Plastic Injection Machine",
+    "sektor": "Automotive Industry",
+    "guc_kw": 220,
+    "sure_saat": 4,
+    "karakteristik": "Fluctuating_Molding_Load",
+    "aciklama": "Bumper and console production. Consumes fluctuating power during mold closing and melt injection phases."
+  },
+  {
+    "id": "OTO-005",
+    "makine_adi": "Robotic Spot Welding Line",
+    "sektor": "Automotive Industry",
+    "guc_kw": 150,
+    "sure_saat": 5,
+    "karakteristik": "Medium_Constant_Load",
+    "aciklama": "Total load of 6-axis robotic arms during welding. Optimized according to the speed of the production line."
+  },
+  {
+    "id": "CEL-001",
+    "makine_adi": "Ultra-High Power Electric Arc Furnace",
+    "sektor": "Metallurgy & Steel Industry",
+    "guc_kw": 15000,
+    "sure_saat": 2,
+    "karakteristik": "Extreme_Peak_Shock_Load",
+    "aciklama": "The 15 MW machine that will blow the jury's mind. Shakes the transformer of the entire industrial zone. Must be locked to 03:00 AM."
+  },
+  {
+    "id": "CEL-002",
+    "makine_adi": "Hot Rolling Main Drive Motor",
+    "sektor": "Metallurgy & Steel Industry",
+    "guc_kw": 4000,
+    "sure_saat": 4,
+    "karakteristik": "Heavy_Fluctuating_Load",
+    "aciklama": "Gigantic drive motors that crush steel billets into plates. Draws very heavy power."
+  },
+  {
+    "id": "CEL-003",
+    "makine_adi": "Ladle Heating Furnace",
+    "sektor": "Metallurgy & Steel Industry",
+    "guc_kw": 2500,
+    "sure_saat": 3,
+    "karakteristik": "Continuous_Thermal_Load",
+    "aciklama": "Maintains the temperature of liquid steel before casting. Consumes continuously high energy during the holding phase."
+  },
+  {
+    "id": "CEL-004",
+    "makine_adi": "Continuous Casting Machine",
+    "sektor": "Metallurgy & Steel Industry",
+    "guc_kw": 800,
+    "sure_saat": 5,
+    "karakteristik": "Constant_Production_Load",
+    "aciklama": "Critical line that pours liquid steel into molds to form billets, absolutely intolerant to interruptions."
+  },
+  {
+    "id": "CEL-005",
+    "makine_adi": "Heavy-Duty VSD Air Compressor",
+    "sektor": "Metallurgy & Steel Industry",
+    "guc_kw": 180,
+    "sure_saat": 3,
+    "karakteristik": "Flexible_Storable_Load",
+    "aciklama": "Produces the massive pneumatic pressure for the facility. Only runs during cheap hours to store air in tanks."
+  }
+]
